@@ -14,6 +14,7 @@ publicmodels_dir=~/ollama_model_links/
 ```
 
 run ./syncmodels script from ~/matts-shell-scripts folder
+
 optional: go to localdocs tab in settings of GPT4All, then download local docs file SBert
 
 Create links for all Ollama models to be used in GPT4All without duplicating all models (save on disk space):
