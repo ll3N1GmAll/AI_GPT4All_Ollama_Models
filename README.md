@@ -2,14 +2,15 @@
 Process for making all downloaded Ollama models available for use in GPT4All:
 
 git clone https://github.com/technovangelist/matts-shell-scripts/
+
 sudo apt install jq -y
 
 edit syncmodels script lines at the top accordingly:
-
+```
 base_dir=/usr/share/ollama/.ollama/models/
 manifest_dir=/usr/share/ollama/.ollama/models/manifests/registry.ollama.ai/
 blob_dir=/usr/share/ollama/.ollama/models/blobs/
-publicmodels_dir=~/ollama_model_links/
+publicmodels_dir=~/ollama_model_links/```
 
 run ./syncmodels script from ~/matts-shell-scripts folder
 optional: go to localdocs tab in settings of GPT4All, then download local docs file SBert
