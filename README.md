@@ -24,6 +24,7 @@ copy all links in /home/<profile>/ollama_model_links/ and paste them in /home/<p
 rename all symlinks' file extensions from .bin to .gguf, close and reopen GPT4All, models are now available
 
 
+
 To add ollama models to LM Studio:
 edit syncmodelsforlmstudio script lines at the top accordingly:
 ```
@@ -33,4 +34,4 @@ blob_dir=/usr/share/ollama/.ollama/models/blobs/
 publicmodels_dir=~/ollama_model_links_LM/
 ```
 This will create a "libray" folder in ```~/ollama_model_links_LM/ ```
-copy this contents of this "library" folder and paste it directly in - ```/home/<profile>/.cache/lm-studio/models/```
+copy this "library" folder, in its entirety, and paste it directly in - ```/home/<profile>/.cache/lm-studio/models/```
