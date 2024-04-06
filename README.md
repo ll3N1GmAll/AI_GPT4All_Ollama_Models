@@ -25,7 +25,7 @@ rename all symlinks' file extensions from .bin to .gguf, close and reopen GPT4Al
 
 
 
-To add ollama models to LM Studio:
+To add ollama models to LM Studio (work in progress, models recognized; but not working yet):
 edit syncmodelsforlmstudio script lines at the top accordingly:
 ```
 base_dir=/usr/share/ollama/.ollama/models/
