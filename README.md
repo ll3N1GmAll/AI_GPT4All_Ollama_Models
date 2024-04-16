@@ -34,5 +34,5 @@ manifest_dir=/usr/share/ollama/.ollama/models/manifests/registry.ollama.ai/
 blob_dir=/usr/share/ollama/.ollama/models/blobs/
 publicmodels_dir=~/ollama_model_links_LM/
 ```
-This will create a "libray" folder in ```~/ollama_model_links_LM/ ```
+This will create a "library" folder in ```~/ollama_model_links_LM/ ```
 copy this "library" folder, in its entirety, and paste it directly in - ```/home/<profile>/.cache/lm-studio/models/```
